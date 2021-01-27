@@ -1,25 +1,42 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {
+  FrameStyle,
+  AsylaLogo,
+  ConentFrame,
+  CardRow,
+  AboutCard,
+  FoodCard,
+  BitsMachine,
+  Shop,
+  BeetleLogo
+} from './App.styles';
+import { Main } from './components/Main';
+import { Link } from 'react-scroll';
+import { Rules } from './components/Rules';
+
+// const Specs = ['GTX 1080', 'Intel i7-6700k ', '32 GB RAM', 'Windows 10'];
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <FrameStyle>
+      <ConentFrame>
+        <Link activeClass="active" to="Main" spy={true} smooth={true}>
+          <AsylaLogo />
+        </Link>
+        <BeetleLogo />
+      </ConentFrame>
+      <ConentFrame id="Main">
+        <Main />
+      </ConentFrame>
+      <CardRow>
+        <AboutCard>
+          <Rules />
+        </AboutCard>
+        <FoodCard></FoodCard>
+        <BitsMachine></BitsMachine>
+      </CardRow>
+      <Shop>SHOPPU</Shop>
+    </FrameStyle>
   );
 }
 

@@ -1,3 +1,3 @@
-# Websoite
+# Website
 
-Webbie for a vtubie :3
+[Website](https://asyla.moe/)

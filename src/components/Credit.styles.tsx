@@ -12,6 +12,7 @@ export const CreditsPlacement = styled.div`
 `;
 
 export const Links = styled.a`
+  display: inline;
   text-decoration: none;
   transition: 0.1s;
   color: yellow;

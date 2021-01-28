@@ -122,3 +122,12 @@ export const FanKit = styled.a`
     transform: scale(0.95);
   }
 `;
+
+// OTHER
+
+export const CreditFrame = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+`;

@@ -11,7 +11,8 @@ import {
   TopBar,
   TopBarText,
   GenContainer,
-  FanKit
+  FanKit,
+  CreditFrame
 } from './App.styles';
 import { Main } from './components/Main';
 import { Link } from 'react-scroll';
@@ -61,9 +62,9 @@ function App() {
           </GenContainer>
         </BitsMachine>
       </CardRow>
-      <ConentFrame>
+      <CreditFrame>
         <Credits />
-      </ConentFrame>
+      </CreditFrame>
     </FrameStyle>
   );
 }

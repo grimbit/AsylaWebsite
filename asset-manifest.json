@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/static/js/main.5d29d546.chunk.js",
-    "main.js.map": "/static/js/main.5d29d546.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.080eef40.js",
-    "runtime-main.js.map": "/static/js/runtime-main.080eef40.js.map",
-    "static/js/2.c80b166d.chunk.js": "/static/js/2.c80b166d.chunk.js",
-    "static/js/2.c80b166d.chunk.js.map": "/static/js/2.c80b166d.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.6dea0f05.chunk.css.map": "/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.c80b166d.chunk.js.LICENSE.txt": "/static/js/2.c80b166d.chunk.js.LICENSE.txt",
-    "static/media/asylatopglow.a2c43bbb.png": "/static/media/asylatopglow.a2c43bbb.png"
+    "main.css": "/AsylaWebsite/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/AsylaWebsite/static/js/main.5d29d546.chunk.js",
+    "main.js.map": "/AsylaWebsite/static/js/main.5d29d546.chunk.js.map",
+    "runtime-main.js": "/AsylaWebsite/static/js/runtime-main.7260c615.js",
+    "runtime-main.js.map": "/AsylaWebsite/static/js/runtime-main.7260c615.js.map",
+    "static/js/2.840adc44.chunk.js": "/AsylaWebsite/static/js/2.840adc44.chunk.js",
+    "static/js/2.840adc44.chunk.js.map": "/AsylaWebsite/static/js/2.840adc44.chunk.js.map",
+    "index.html": "/AsylaWebsite/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/AsylaWebsite/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.840adc44.chunk.js.LICENSE.txt": "/AsylaWebsite/static/js/2.840adc44.chunk.js.LICENSE.txt",
+    "static/media/asylatopglow.a2c43bbb.png": "/AsylaWebsite/static/media/asylatopglow.a2c43bbb.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.080eef40.js",
-    "static/js/2.c80b166d.chunk.js",
+    "static/js/runtime-main.7260c615.js",
+    "static/js/2.840adc44.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
     "static/js/main.5d29d546.chunk.js"
   ]

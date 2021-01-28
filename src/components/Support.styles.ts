@@ -14,7 +14,6 @@ export const RuleText = styled.a`
   &:hover {
     transform: scale(1.1);
     color: white;
-    margin-left: 0.4rem;
   }
   &:active {
     transform: scale(0.95);

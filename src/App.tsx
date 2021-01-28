@@ -10,7 +10,8 @@ import {
   BeetleLogo,
   TopBar,
   TopBarText,
-  GenContainer
+  GenContainer,
+  FanKit
 } from './App.styles';
 import { Main } from './components/Main';
 import { Link } from 'react-scroll';
@@ -18,6 +19,8 @@ import { ListRules } from './components/Rules';
 import { ListSupport } from './components/Support';
 import { About } from './components/About';
 import { ListSocial } from './components/Social';
+import { FaUikit } from 'react-icons/fa';
+import { Credits } from './components/Credits';
 // const Specs = ['GTX 1080', 'Intel i7-6700k ', '32 GB RAM', 'Windows 10'];
 
 function App() {
@@ -32,8 +35,10 @@ function App() {
       <ConentFrame id="Main">
         <Main />
         <ListSocial />
+        <FanKit href="https://drive.google.com/drive/folders/1pJV9o-rKXCJWQ5NU4VbKUxQ24eqmDa93?usp=sharing">
+          <FaUikit /> FAN-KIT
+        </FanKit>
       </ConentFrame>
-
       <CardRow>
         <AboutCard>
           <TopBar>
@@ -56,6 +61,9 @@ function App() {
           </GenContainer>
         </BitsMachine>
       </CardRow>
+      <ConentFrame>
+        <Credits />
+      </ConentFrame>
     </FrameStyle>
   );
 }

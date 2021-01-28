@@ -49,7 +49,7 @@ export const TopBar = styled.div`
   display: flex;
   width: 100%;
   min-height: 2.5rem;
-  background-color: #4978b9;
+  background-color: #315da3;
   overflow: hidden;
   border-radius: 0.7rem 0.7rem 0rem 0rem;
 `;
@@ -75,19 +75,19 @@ export const CardRow = styled.div`
 export const AboutCard = styled.div`
   min-height: 12rem;
   min-width: 21rem;
-  background-color: rgba(8, 68, 127, 0.8);
+  background-color: rgba(16, 55, 80, 0.8);
   border-radius: 0.7rem;
 `;
 export const FoodCard = styled.div`
   min-height: 12rem;
   min-width: 15%;
-  background-color: rgba(8, 68, 127, 0.8);
+  background-color: rgba(16, 55, 80, 0.8);
   border-radius: 0.7rem;
 `;
 export const BitsMachine = styled.div`
   min-height: 12rem;
   min-width: 25%;
-  background-color: rgba(8, 68, 127, 0.8);
+  background-color: rgba(16, 55, 80, 0.8);
   border-radius: 0.7rem;
 `;
 
@@ -96,4 +96,29 @@ export const GenContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   width: 30rem;
+`;
+
+export const FanKit = styled.a`
+  display: inline;
+
+  justify-items: center;
+  justify-content: center;
+
+  text-decoration: none;
+  margin-top: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.1s;
+  color: yellow;
+  margin-left: 0.625rem;
+  transition: transform 0.2s;
+
+  &:hover {
+    text-shadow: 0rem 0rem 1rem red;
+    transform: scale(1.2);
+    color: red;
+  }
+  &:active {
+    transform: scale(0.95);
+  }
 `;

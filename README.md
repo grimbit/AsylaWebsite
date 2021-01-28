@@ -1,3 +1,3 @@
 # Website
 
-[Website](https://asyla.moe/)
+[Link](https://asyla.moe/)
